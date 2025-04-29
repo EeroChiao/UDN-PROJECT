@@ -1,0 +1,42 @@
+/* rwd setting */
+@mixin mob {
+  @media screen and (min-width: 375px) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media screen and (min-width: 744px) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mpc {
+  @media screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin spc {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin lpc {
+  @media screen and (min-width: 1920px) {
+    @content;
+  }
+}
+
+@mixin gpc {
+  @media screen and (min-width: 2560px) {
+    @content;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode production",
+    "build:test": "vite build --mode staging",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@udn-digital-center/common-components": "^0.3.1",
+    "@vitejs/plugin-vue": "^5.2.2",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.5.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.25.1",
+    "eslint-plugin-vue": "^10.0.1",
+    "husky": "^9.1.7",
+    "jiti": "^2.4.2",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.5.3",
+    "sass": "1.77.6",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-html": "^3.2.2",
+    "vue-tsc": "^2.2.8"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix"
+    ],
+    "*.{md,css,scss,vue}": [
+      "prettier --write"
+    ]
+  }
+}
