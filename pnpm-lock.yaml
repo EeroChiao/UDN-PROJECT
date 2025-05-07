@@ -16,8 +16,8 @@ importers:
         specifier: ^22.15.3
         version: 22.15.3
       '@udn-digital-center/common-components':
-        specifier: ^0.3.1
-        version: 0.3.1(vue@3.5.13(typescript@5.7.3))
+        specifier: ^0.3.2
+        version: 0.3.2(vue@3.5.13(typescript@5.7.3))
       '@vitejs/plugin-vue':
         specifier: ^5.2.2
         version: 5.2.3(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(sass@1.77.6)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.7.3))
@@ -494,8 +494,8 @@ packages:
     resolution: {integrity: sha512-I+/rgqOVBn6f0o7NDTmAPWWC6NuqhV174lfYvAm9fUaWeiefLdux9/YI3/nLugEn9L8fcSi0XmpKi/r5u0nmpw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@udn-digital-center/common-components@0.3.1':
-    resolution: {integrity: sha512-FZ2vJHtxdTCsIN2ZNKPLX4s9oFLjQy0nrjAjFp4ztkHPmlZpX/SJYGt9PHbHpaBccXeIhML/9wFu7hBuSuboOg==}
+  '@udn-digital-center/common-components@0.3.2':
+    resolution: {integrity: sha512-XVljy8GiykJqVrI1O1oTt3mHi5L/J7QSnAIjVSQqtjZcbmXS1EV3EQvYmYOGMxL6dRVSmauiWy35Dz0bpi7K4w==}
     peerDependencies:
       vue: ^3.2.25
 
@@ -1878,7 +1878,7 @@ snapshots:
       '@typescript-eslint/types': 8.31.1
       eslint-visitor-keys: 4.2.0
 
-  '@udn-digital-center/common-components@0.3.1(vue@3.5.13(typescript@5.7.3))':
+  '@udn-digital-center/common-components@0.3.2(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@vueuse/core': 8.9.4(vue@3.5.13(typescript@5.7.3))
       lodash-es: 4.17.21
